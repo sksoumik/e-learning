@@ -15,8 +15,14 @@
  
  Unique IDs check:
 
- `
- print(f"The total patient ids are {train_df['PatientId'].count()}, from those the unique ids are {train_df['PatientId'].value_counts().shape[0]} ")
- `
+ ```
+ print(f"The total patient ids are {train_df['PatientId'].count()}, from those the unique ids are {train_df['PatientId'].value_counts().shape[0]}")
+```
+<br/>
+
+`value_counts()` function is used to get a Series containing counts of *unique* values.
+`
+
+
 
 

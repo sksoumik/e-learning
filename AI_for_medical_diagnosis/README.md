@@ -7,6 +7,16 @@
 
 ### Chest X-ray classification
 
-- 3 areas where AI is doing tremendously good at medical image diagnosis: Dermatology, Ophthamology(Diabetic ratinopathy)
+- 3 areas where AI is doing tremendously good at medical image diagnosis: Dermatology, Ophthamology(Diabetic ratinopathy), and Histopathology(examination of tissues under the microscope)
+
+### Ungraded lab: EDA
+
+- First step is to explore data
+ 
+ Unique IDs check:
+
+ `
+ print(f"The total patient ids are {train_df['PatientId'].count()}, from those the unique ids are {train_df['PatientId'].value_counts().shape[0]} ")
+ `
 
 
